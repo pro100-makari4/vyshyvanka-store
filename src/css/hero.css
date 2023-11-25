@@ -1,0 +1,150 @@
+.hero-wrapper {
+    padding: 60px 0 80px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    color: var(--white, #FCF9F9);
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1.23;
+    letter-spacing: -0.03em;
+    margin-bottom: 20px;
+}
+
+.accent-color {
+    color: var(--elements-color);
+}
+
+.hero-order-btn {
+    display: inline-flex;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    height: 49px;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-left: 70px;
+}
+
+.hero-order-icon {
+    fill: var(--elements-color);
+    line-height: 0;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .hero-ukr-image,
+    .hero-made-wrapper {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero-wrapper {
+        position: relative;
+        padding: 106px 0 100px;
+    }
+
+    .hero-title {
+        width: 549px;
+        font-size: 54px;
+        font-weight: 400;
+        line-height: 1.19;
+        letter-spacing: -0.03em;
+        margin-bottom: 40px;
+    }
+
+    .hero-made-wrapper {
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 115px;
+
+        fill: var(--elements-color);
+    }
+
+    .hero-made-icon {
+        display: block;
+        margin: 0 auto 16px;
+    }
+
+    .hero-made-text {
+        color: rgba(252, 249, 249, 0.40);
+        text-align: center;
+        line-height: normal;
+        letter-spacing: -0.04em;
+    }
+
+    .hero-ukr-wrapper {
+        position: absolute;
+        bottom: 100px;
+        right: 0;
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+        overflow: hidden;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        gap: 40px;
+        flex-direction: row-reverse;
+        position: relative;
+        padding: 100px 0 150px;
+    }
+
+    .hero-img-vyshyvanka {
+        justify-content: flex-start;
+    }
+
+    .hero-title-order-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .hero-title {
+        width: 518px;
+    }
+
+    .hero-order-btn {
+        width: 168px;
+        margin-left: 140px;
+    }
+
+    .hero-made-wrapper {
+        top: 130px;
+    }
+
+    .hero-ukr-wrapper {
+        bottom: 150px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-title {
+        width: 622px;
+        font-size: 64px;
+        line-height: 1.16;
+    }
+
+    .hero-made-wrapper {
+        top: 200px;
+    }
+}
