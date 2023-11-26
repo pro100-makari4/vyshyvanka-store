@@ -1,5 +1,6 @@
 .testimonials-wrapper {
-    padding: 80px 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .testimonials-title {
@@ -69,9 +70,6 @@
 @media screen and (min-width: 768px) {
     .testimonials-wrapper {
         padding: 100px 0;
-
-        /* потрібно дописати медіа запити в main на 
-        container > padding: left+right  під кожен пристрій */
     }
 
     .testimonials-list-item-content {
@@ -105,9 +103,6 @@
 @media screen and (min-width: 1280px) {
     .testimonials-wrapper {
         padding: 150px 0;
-
-        /* потрібно дописати медіа запити в main на 
-        container > padding: left+right  під кожен пристрій */
     }
 
     .testimonials-item-text {
