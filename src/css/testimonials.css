@@ -68,9 +68,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .testimonials-wrapper {
-        padding: 100px 0;
-    }
 
     .testimonials-list-item-content {
         padding: 54px 18px 18px;
@@ -101,9 +98,6 @@
 /* DESKTOP 1280 */
 
 @media screen and (min-width: 1280px) {
-    .testimonials-wrapper {
-        padding: 150px 0;
-    }
 
     .testimonials-item-text {
         font-size: 16px;

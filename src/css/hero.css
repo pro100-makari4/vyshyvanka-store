@@ -1,7 +1,6 @@
 .hero-wrapper {
     padding-top: 60px;
     padding-bottom: 80px;
-    margin: 0 auto;
 }
 
 .hero-title {
@@ -55,7 +54,8 @@
 @media screen and (min-width: 768px) {
     .hero-wrapper {
         position: relative;
-        padding: 106px 0 100px;
+        padding-top: 106px;
+        padding-bottom: 100px;
     }
 
     .hero-title {
@@ -70,7 +70,7 @@
     .hero-made-wrapper {
         position: absolute;
         top: 80px;
-        right: 0;
+        right: 32px;
         width: 115px;
 
         fill: var(--elements-color);
@@ -91,7 +91,7 @@
     .hero-ukr-wrapper {
         position: absolute;
         bottom: 100px;
-        right: 0;
+        right: 32px;
         border-top-right-radius: 50%;
         border-top-left-radius: 50%;
         overflow: hidden;
@@ -106,7 +106,8 @@
         gap: 40px;
         flex-direction: row-reverse;
         position: relative;
-        padding: 100px 0 150px;
+        padding-top: 100px;
+        padding-bottom: 150px;
     }
 
     .hero-img-vyshyvanka {
@@ -131,10 +132,12 @@
 
     .hero-made-wrapper {
         top: 130px;
+        right: 100px;
     }
 
     .hero-ukr-wrapper {
         bottom: 150px;
+        right: 100px;
     }
 }
 
