@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vyshyvanka-store/",
+    "build": "vite build pro100-makari4.github.io/vyshyvanka-store/",
     "preview": "vite preview"
   },
   "devDependencies": {

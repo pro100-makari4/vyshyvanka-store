@@ -48,11 +48,13 @@
 }
 
 /* MOBILE HIDDEN REVIEW  */
-@media screen and (max-width:768px) {
+@media screen and (max-width:767.9px) {
 
     .testimonials-list-item-1-hidden,
     .testimonials-list-item-2-hidden {
-        display: none;
+        position: absolute;
+        transform: translateX(9999px), scale(0);
+        overflow: hidden;
     }
 }
 
@@ -63,7 +65,8 @@
 
     /* TABLET HIDDEN REVIEW  */
     .testimonials-list-item-2-hidden {
-        display: none;
+        position: absolute;
+        transform: translateX(99999px), scale(0);
     }
 }
 
